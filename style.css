@@ -1,0 +1,117 @@
+/* Reset básico */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Container principal */
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    flex: 1;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0;
+    color: #343a40;
+}
+
+/* Barra de navegação estilizada */
+nav {
+    background-color: #343a40;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.3s;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #1a1f25;
+}
+
+/* Estilização do iframe */
+iframe {
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    height: 500px;
+    border: 2px solid #dee2e6;
+}
+
+/* Rodapé */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    position: fixed;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Formulário */
+fieldset {
+    background-color: #ffffff;
+    border: 2px solid #1f3052;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 1.5em;
+    color: #1f3052;
+    padding: 0 10px;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.btn {
+    border-radius: 10px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    iframe {
+        height: 400px;
+    }
+    
+    .container {
+        padding: 15px;
+    }
+}
