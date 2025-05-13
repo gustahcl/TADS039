@@ -1,2 +1,2 @@
 # Currículo
-Repositório para as aulas de Coding, Linguagens e Técnicas
+Repositório para as aulas de Coding
