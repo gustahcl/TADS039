@@ -1,2 +1,2 @@
-# TADS039
+# Currículo
 Repositório para as aulas de Coding, Linguagens e Técnicas
